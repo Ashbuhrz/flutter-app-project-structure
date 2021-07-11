@@ -1,0 +1,226 @@
+name: project_structure
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # sqlite database
+  # https://pub.dev/packages/sqflite
+  sqflite: ^2.0.0+3
+
+  # sqlite migration plugin
+  # sqflite_migration_service: ^1.0.6
+  sqflite_migration_service: ^2.0.0-nullsafety.0
+
+  # For android local notification
+  # https://pub.dev/packages/flutter_local_notifications
+  flutter_local_notifications: ^6.0.0
+
+  # To read app version and buildnumber
+  # https://pub.dev/packages/package_info
+  package_info: ^2.0.0
+
+  # For ui to enter pin code ex OTP
+  # https://pub.dev/packages/pin_code_fields
+  pin_code_fields: ^7.0.0
+
+  # A flutter library to crop selected image
+  # https://pub.dev/packages/image_cropper
+  image_cropper: ^1.4.1
+
+  # A flutter library to show images from the internet and keep them in the cache directory.
+  # https://pub.dev/packages/cached_network_image
+  cached_network_image: ^3.0.0
+
+  # A flutter library for state management
+  # https://pub.dev/packages/get#about-get
+  get: ^4.1.4
+
+  # A flutter library for to sense keyboard state
+  # https://pub.dev/packages/flutter_keyboard_visibility
+  flutter_keyboard_visibility: ^5.0.2
+
+  # Library to store object/key-pair locally
+  # https://pub.dev/packages/get_storage
+  get_storage: ^2.0.2
+
+  # Library to sense internet connection
+  # https://pub.dev/packages/connectivity
+  connectivity: ^3.0.3
+
+  # Library to pick image from device
+  # https://pub.dev/packages/image_picker
+  image_picker: ^0.7.4
+
+  # A library useful for creating fuzzy timestamps
+  # https://pub.dev/packages/timeago
+  timeago: ^3.1.0
+
+  # Library provide Fancy pre-built animations that can easily be integrated into any Flutter application.
+  # https://pub.dev/packages/animations
+  animations: ^2.0.1
+
+  # Contains code to deal with internationalized/localized messages, date and number formatting and parsing, bi-directional text, and other internationalization issues.
+  # https://pub.dev/packages/intl
+  intl: ^0.17.0
+
+  # An SVG rendering and widget library for Flutter
+  # https://pub.dev/packages/flutter_svg
+  flutter_svg: ^0.22.0
+
+  # For device info
+  # https://pub.dev/packages/device_info
+  # Optional
+  device_info: ^2.0.2
+
+  # For Shimmer effect
+  # https://pub.dev/packages/shimmer
+  # Optional
+  shimmer: ^2.0.0
+
+  # For Screen Design
+  # https://pub.dev/packages/flutter_screenutil
+  # Optional
+  flutter_screenutil: ^5.0.0+2
+
+  # For custom switch widget
+  # https://pub.dev/packages/flutter_switch
+  flutter_switch: ^0.3.1
+
+  # A powerful Http client for Dart, which supports Interceptors, FormData, Request Cancellation, File Downloading, Timeout etc.
+  # https://pub.dev/packages/dio
+  dio: ^4.0.0
+
+  # Render After Effects animations natively on Flutter. This package is a pure Dart implementation of a Lottie player.
+  # https://pub.dev/packages/lottie
+  lottie: ^1.0.1
+
+  # Flutter Secure Storage provides API to store data in secure storage. Keychain is used in iOS, KeyStore based solution is used in Android.
+  # https://pub.dev/packages/flutter_secure_storage
+  flutter_secure_storage: ^4.2.0
+
+  # Rating Bar
+  # https://pub.dev/packages/flutter_rating_bar
+  flutter_rating_bar: ^4.0.0
+
+  # Slider
+  # https://pub.dev/packages/carousel_slider
+  carousel_slider: ^4.0.0-nullsafety.0
+
+  # Easily add staggered animations to your ListView, GridView, Column and Row children as shown in Material Design guidelines
+  # https://pub.dev/packages/flutter_staggered_animations
+  flutter_staggered_animations: "^1.0.0"
+
+  # Native Share
+  # https://pub.dev/packages/share
+  share: ^2.0.4
+
+  # Simple direct Service Locator that allows to decouple the interface from a concrete implementation and to access the concrete implementation from everywhere in your App"
+  # https://pub.dev/packages/get_it
+  get_it: ^7.1.3
+
+  #For Playing `Video`
+  #https://pub.dev/packages/video_player
+  video_player: ^2.1.6
+  chewie: ^1.2.2
+
+  # https://pub.dev/packages/firebase_auth
+  firebase_auth: ^1.4.1
+  # https://pub.dev/packages/firebase_core
+  firebase_core: ^1.3.0
+  #https://pub.dev/packages/firebase_dynamic_links
+  firebase_dynamic_links: ^2.0.6
+
+  # for firebase push notification
+  # https://pub.dev/packages/firebase_messaging/install
+  firebase_messaging: ^10.0.2
+
+  # Sign In with google
+  # https://pub.dev/packages/google_sign_in
+  google_sign_in: ^5.0.4
+
+  # Sign In with Facebook
+  # https://pub.dev/packages/flutter_facebook_auth
+  flutter_facebook_auth: ^3.4.1
+
+  # Sign In with Apple
+  # https://pub.dev/packages/sign_in_with_apple
+  sign_in_with_apple: ^3.0.0
+  crypto: ^3.0.1
+
+  # Sign In with Twitter
+  # https://pub.dev/packages/twitter_login
+  twitter_login: ^4.0.0
+
+  # for Html text
+  # https://pub.dev/packages/flutter_html
+  flutter_html: ^2.1.0
+ 
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/ #for image in format png,jpeg etc
+    - assets/fonts/ #for fonts prefer google font plugin easy to maintain
+    - assets/icons/ #for icons in format of svg
+    - assets/sql/ #for sql database table for proper data/table migration --> sqflite_migration_service
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
