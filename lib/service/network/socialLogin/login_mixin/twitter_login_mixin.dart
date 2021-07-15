@@ -6,10 +6,10 @@ mixin TwitterLoginMixin {
   Future<User?> signInWithTwitter(FirebaseAuth auth) async {
     final TwitterLogin twitterLogin = TwitterLogin(
       /// Consumer API keys
-      apiKey: 'FmdBQqxzUt655Sknrn34y6RAW',
+      apiKey: 'your api key here',
 
       /// Consumer API Secret keys
-      apiSecretKey: '8ON43eOqxw6xRbLrs6Faz6ipoH2KubwYSCyYArSqt8PzeozCPm',
+      apiSecretKey: 'your api secret key here',
 
       /// Registered Callback URLs in TwitterApp
       /// Android is a deeplink
