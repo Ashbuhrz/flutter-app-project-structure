@@ -14,7 +14,7 @@ mixin TwitterLoginMixin {
       /// Registered Callback URLs in TwitterApp
       /// Android is a deeplink
       /// iOS is a URLScheme
-      redirectURI: 'tashbyt://',
+      redirectURI: 'your redirect uri here',
     );
     User? user;
     final AuthResult authResult = await twitterLogin.login();
