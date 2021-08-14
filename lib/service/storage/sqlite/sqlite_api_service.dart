@@ -18,12 +18,12 @@ class SQliteApiService extends DatabaseMigrationService {
     //initialize databse to be call first in the app
     String path = join(await getDatabasesPath(), DB_NAME);
     _database = await openDatabase(path, version: 1);
-    await runMigration(_database, migrationFiles: ['1_base_schema.sql']);
+    await runMigration(_database, migrationFiles: ['if migrating enter your db file name here']);
   }
 
   migrateSqliteDatabase() async {
     await _singleton
-        .runMigration(_database, migrationFiles: ['1_base_schema.sql']);
+        .runMigration(_database, migrationFiles: ['if migrating enter your db file name here']);
   }
 
   Future<bool> closeDatabase() async {
