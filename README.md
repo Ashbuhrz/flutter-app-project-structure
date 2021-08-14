@@ -1,4 +1,4 @@
-# flutter-app-project_structure
+# Flutter App Project Structure
 
 This repo provide the prebuild project struture for the flutter app
 ## Features
